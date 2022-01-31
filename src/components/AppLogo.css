@@ -1,0 +1,12 @@
+.AppLogo {
+  position: relative;
+  font-size: 60px;
+  letter-spacing: 0;
+}
+.AppLogo-title {
+  font-family: "Rubik", sans;
+  color: #000;
+  margin: 0;
+  display: block;
+  font-weight: 300;
+}
