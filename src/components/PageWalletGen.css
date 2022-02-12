@@ -48,3 +48,53 @@
   border-radius: 8px;
   box-shadow: 0;
 }
+.identicon {
+  display: block;
+}
+.RandomWalletList {
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  width: 100%; 
+  max-width: 708px;
+}
+.RandomWallet {
+  padding: 2px;
+  border-width: 0;
+  border: 4px solid transparent;
+  background: transparent;
+  min-width: 84px;
+  animation-name: wallet-reveal;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  backface-visibility: hidden;
+}
+.RandomWallet--used {
+  border-color: red;
+}
+.RandomWallet--favorite {
+  border-color: green;
+}
+
+.FavoriteWallet {
+  padding: '20px';
+  border-width: 0;
+  background: transparent;
+  animation-name: wallet-reveal;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  backface-visibility: hidden;
+}
+.FavoriteWallet--used {
+  background: red;
+}
+@keyframes wallet-reveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
