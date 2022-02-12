@@ -25,8 +25,8 @@ function PageWalletGen() {
     }
     const oldWalletsTargetLength = MAX_WALLETS_VISIBLE - NEW_ROW_COUNT;
     setRandomWallets([
-      ...randomWallets.slice(-oldWalletsTargetLength),
       ...newRandomWallets,
+      ...randomWallets.slice(0, oldWalletsTargetLength),
     ]);
   }, [randomWallets]);
 
