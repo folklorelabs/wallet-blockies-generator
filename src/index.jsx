@@ -2,8 +2,8 @@ import './reset.css';
 import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CookieConsent from 'react-cookie-consent';
-import ReactGA from 'react-ga';
+// import CookieConsent from 'react-cookie-consent';
+// import ReactGA from 'react-ga';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
@@ -14,7 +14,7 @@ ReactDOM.render(
     <Web3Provider>
       <App />
     </Web3Provider>
-    <CookieConsent
+    {/* <CookieConsent
       buttonText="Accept"
       style={{ backgroundColor: '#000' }}
       buttonStyle={{
@@ -29,7 +29,7 @@ ReactDOM.render(
       }}
     >
       This website uses cookies to enhance the user experience.
-    </CookieConsent>
+    </CookieConsent> */}
   </React.StrictMode>,
   document.getElementById('root'),
 );
