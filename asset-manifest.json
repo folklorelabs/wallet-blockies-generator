@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/wallet-blockies-generator/static/css/main.233a2ad8.css",
+    "main.css": "/wallet-blockies-generator/static/css/main.1e76294e.css",
     "main.js": "/wallet-blockies-generator/static/js/main.398b848a.js",
     "index.html": "/wallet-blockies-generator/index.html",
-    "main.233a2ad8.css.map": "/wallet-blockies-generator/static/css/main.233a2ad8.css.map",
+    "main.1e76294e.css.map": "/wallet-blockies-generator/static/css/main.1e76294e.css.map",
     "main.398b848a.js.map": "/wallet-blockies-generator/static/js/main.398b848a.js.map"
   },
   "entrypoints": [
-    "static/css/main.233a2ad8.css",
+    "static/css/main.1e76294e.css",
     "static/js/main.398b848a.js"
   ]
 }
