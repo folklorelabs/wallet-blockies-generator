@@ -1,7 +1,7 @@
 .AppFooter {
   position: relative;
   background-color: #fff;
-  padding: 3em 1em 2em;
+  padding: 2em 1em 3em;
 }
 .AppFooterSection {
   font-size: 14px;
@@ -13,7 +13,20 @@
 .AppFooterSection--contact {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+}
+.AppFooterContactLabel {
+  display: block;
+  margin-bottom: 0.2em;
+  text-transform: lowercase;
+  font-weight: 100;
 }
 .AppFooterContactLink {
   margin: 0 1em;
+}
+.AppFooter-logo {
+  font-size: 28px;
+}
+.AppFooterContactLink--img {
+  text-decoration: none;
 }
