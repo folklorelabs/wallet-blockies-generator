@@ -8,12 +8,12 @@ import './AppFooter.css';
 function AppFooter({ className }) {
   return (
     <footer className={classnames('AppFooter', className)}>
-      <p className="AppFooterSection AppFooterSection--contact">
+      <div className="AppFooterSection AppFooterSection--contact">
         <span className="AppFooterContactLabel">An app by</span>
         <a className="AppFooterContactLink AppFooterContactLink--img" href="/">
           <AppLogo className="AppFooter-logo" />
         </a>
-      </p>
+      </div>
     </footer>
   );
 }
