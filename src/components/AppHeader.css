@@ -10,6 +10,12 @@
   z-index: 1;
 }
 
+.AppHeader-headline {
+  margin: 0;
+  font-weight: 700;
+  font-size: 2em;
+  color: #000;
+}
 .AppHeader-link {
   font-size: 18px;
   min-width: 6em;

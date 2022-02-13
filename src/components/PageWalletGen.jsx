@@ -78,7 +78,6 @@ function PageWalletGen() {
     <div className="PageWalletGen RainbowBG">
       <div className="PageWalletGen-inner">
         <div className="PageWalletGen-section">
-          <h1 className="PageWalletGen-headline">Wallet Generator</h1>
           <span>
             Click the button to start generating rows of potential wallets.
             Click on wallets you like to save them below.

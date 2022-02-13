@@ -6,7 +6,7 @@ import classnames from 'classnames';
 function AppLogo({ className }) {
   return (
     <div className={classnames('AppLogo', className)}>
-      <h1 className="AppLogo-title">folklore labs</h1>
+      <h1 className="AppLogo-title">Folklore Labs</h1>
     </div>
   );
 }
