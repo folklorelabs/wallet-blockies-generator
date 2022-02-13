@@ -1,6 +1,6 @@
 .AppFooter {
   position: relative;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 2em 1em 3em;
 }
 .AppFooterSection {

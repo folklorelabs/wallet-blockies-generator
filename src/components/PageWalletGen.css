@@ -14,9 +14,10 @@
   padding: 2em 1em;
 }
 .PageWalletGen-headline {
-  margin-bottom: 0.5em;
   text-transform: uppercase;
-  font-size: 1.667em;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+  font-size: 2em;
 }
 .PageWalletGen-section {
   margin-bottom: 2.25em;

@@ -12,6 +12,7 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   letter-spacing: 0.05em;
+  color: rgba(12, 12, 13);
 }
 
 code {
@@ -25,7 +26,7 @@ code {
   background-color: transparent;
   border: transparent;
   font-weight: 700;
-  color: #000;
+  color: rgba(12, 12, 13);
   /* text-decoration: none; */
 }
 .AnchorText:focus,
