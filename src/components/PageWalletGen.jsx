@@ -128,9 +128,13 @@ function PageWalletGen() {
               id={wallet[0]}
               type="button"
               onClick={() => {
-                const newFavs = [
+                const favIndex = favoriteWallets.findIndex((w) => w[0] === wallet[0]);
+                const newFavs = favIndex < 0 ? [
                   ...favoriteWallets,
                   [wallet[0], wallet[1]],
+                ] : [
+                  ...favoriteWallets.slice(0, favIndex),
+                  ...favoriteWallets.slice(favIndex + 1),
                 ];
                 localStorage.setItem('favoriteWallets', JSON.stringify(newFavs));
                 setFavoriteWallets(newFavs);
