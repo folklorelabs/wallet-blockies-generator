@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wallet-blockies-generator/static/css/main.1e76294e.css",
+    "main.js": "/wallet-blockies-generator/static/js/main.4a678bc5.js",
+    "index.html": "/wallet-blockies-generator/index.html",
+    "main.1e76294e.css.map": "/wallet-blockies-generator/static/css/main.1e76294e.css.map",
+    "main.4a678bc5.js.map": "/wallet-blockies-generator/static/js/main.4a678bc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e76294e.css",
+    "static/js/main.4a678bc5.js"
+  ]
+}
